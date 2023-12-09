@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+button {
+  padding: 15px;
+  background-color: rgb(71, 172, 179);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(219, 49, 180);
+}
+
+button:active,
+button:focus {
+  outline: none;
+}
+
+#pokemon-area {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  width: 250px;
+  background-color: rgb(233, 162, 226);
+  border: 8px solid rgb(116, 120, 124);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.card p {
+  font-family: sans-serif;
+}
